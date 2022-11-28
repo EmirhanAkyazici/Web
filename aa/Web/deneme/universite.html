@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deneme Sitesi</title>
+    <link rel="stylesheet" href="universite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+        }
+
+        img {
+            width: 100px;
+            object-position: left;
+        }
+
+        .orta {
+            border: 1px solid rgb(186, 183, 183);
+            padding-top: 10px;
+            padding-left: 15px;
+            padding-bottom: 100px;
+            column-count: 2;
+
+
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-rule: 2px solid rgb(186, 183, 183);
+            -webkit-column-rule: 2px solid rgb(186, 183, 183);
+            -moz-column-rule: 2px solid rgb(186, 183, 183);
+            margin: 5px 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="baslik">
+
+        <p id="uni" style="text-align:100px ;">
+            <img style="object-position: left ;" src="uni_logo.gif" alt="">
+            Kütahya Dumlupınar Üniversitesi
+        </p>
+        <p id="bas"> Öğrenci Bilgi Sistemi </p>
+    </div>
+
+    <br><br>
+    <div class="orta">
+        <form>
+            <p>Öğrenci No <input class="girdi" type="number"></p>
+            <p>Şifre <input class="girdi" type="password"></p>
+            <p><a href="../webDeneme.html"><button><i id="buton" class="fa-solid fa-arrow-right-to-bracket"></i> Giriş</button></a></p>
+            <p><a
+                    href="https://giris.turkiye.gov.tr/Giris/gir?oauthClientId=02ff15e4-bd49-4ff2-85b2-2b0758232178&continue=https%3A%2F%2Fgiris.turkiye.gov.tr%2FOAuth2AuthorizationServer%2FAuthorizationController%3Fresponse_type%3Dcode%26client_id%3D02ff15e4-bd49-4ff2-85b2-2b0758232178%26state%3DOgrenci%26scope%3DKimlik-Dogrula%253BAd-Soyad%26redirect_uri%3Dhttps%253A%252F%252Fobs.dpu.edu.tr%252Frouter.aspx">
+                   <button ><i id="buton" class="fa-solid fa-right-to-bracket"></i> E-Devlet İle Giriş</button></a>
+            </p>
+            <p><a href="https://obs.dpu.edu.tr/oibs/ogrenci/start.aspx?gkm=0020311153442038816311143550534436355252195389363444032234333483446437819377633836837679378053556036720"
+                    target="_blank">Şifre Sıfırla </a></p>
+            <br><br><br>
+        </form>
+        <div id="sagtaraf">
+            <p>Üniversitemiz Akademik Takvimlerine ulaşmak için <a
+                    href="https://oidb.dpu.edu.tr/tr/index/sayfa/11518/2020-2021-akademik-takvimleri">tıklayınız.</a>
+            </p>
+            <p>Şifremi unuttum açıklama için <a
+                    href="https://birimler.dpu.edu.tr/app/views/panel/ckfinder/userfiles/27/files/sifremi_unuttum.pdf">tıklayınız.</a>
+            </p>
+            <p>Öğrenci Kurumsal E-Posta Hesabı oluşturma açıklaması için <a
+                    href="https://birimler.dpu.edu.tr/app/views/panel/ckfinder/userfiles/27/files/e_posta_aciklama.pdf">tıklayınız</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

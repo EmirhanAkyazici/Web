@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 7px;
+}
+
+body {
+    font-family: 'Nerko One', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgb(65, 58, 58);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 1.6rem 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    height: 46rem;
+}
+
+header .bg-image {
+    position: absolute;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+header h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(65, 58, 58);
+    color: white;
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: 0.5rem 0;
+    transition: all 0.4s;
+}
+.col{
+    background-color: #a0a0a0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #666;
+}
+#sectiona{
+    background-color: white;
+    color: #333;
+    padding: 3.2rem;
+}
+#sectionb{
+    padding: 2rem;
+}
+#sectionb ul{
+    list-style: none;
+}
+#sectionb li{
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+.colcont{
+    padding: 1.5rem;
+}
+#sectionc{
+    background-color: #a0a0a0;
+    color: #333;
+    padding: 5rem;
+}
+#sectiond .box{
+    padding: 5rem;
+}
+#sectiond .box:first-child{
+    background-color:rgb(58, 58, 58);
+}
+footer{
+    padding: 4rem;
+    background-color: black;
+}
+footer a{
+    color: yellowgreen;
+
+}
+@media screen and (min-width : 800px) {
+    html{
+        font-size: 9px;
+    }
+    #sectionb li{
+        width: 46%;
+        margin: 1%;
+        display: inline-block;      
+    }
+    .box{
+        width: 50%;
+        float: left;
+    }
+    
+}
+@media screen and (min-width : 1200px) {
+    html{
+        font-size: 11px;
+    }
+    #sectionb li{
+        width: 28%;
+        margin: 1%;
+        display: inline-block;      
+    }
+    .box{
+        width: 50%;
+        float: left;
+    }
+}
+.butn{
+    text-decoration: none;
+    color: black;
+}

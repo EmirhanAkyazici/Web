@@ -1,0 +1,33 @@
+.baslik{
+    background-color: rgb(1, 1, 56);
+    padding: 5px 10px;
+    padding-top: 2px;
+    border-bottom: 1px solid black;
+    color: white;
+    column-rule: 2px solid none;
+            column-count: 2;
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+
+}
+#uni{
+    text-align: left;
+    padding-right: 10px;
+}
+#bas{
+    text-align: end;
+    font-size: 40px;
+    padding-top: 50px;
+}
+form{
+    text-align: left;
+    
+}
+
+#sagtaraf{
+    padding-left: 3px;
+    
+}
+#buton{
+    color: rgb(56, 56, 233);
+}
